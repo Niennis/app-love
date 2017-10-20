@@ -272,7 +272,7 @@ a:hover {
   height: 70px;
   width:100%;
   position: relative;
-  top:50%;
+  top:35%;
   background-color: #3A3B49;
 }
 
@@ -280,8 +280,8 @@ a:hover {
   color:white;
   text-align: center;
   position:relative;
-  top:30%;
-  left:-4%;
+  top:32%;
+  left:3%;
 }
 
 /*FIN FOOTER*/
