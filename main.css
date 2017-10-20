@@ -1,0 +1,287 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  font-family: 'Raleway', sans-serif; /*lo agregué yo*/
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #3A3B49;
+  text-decoration: none;
+  font-weight: 900; 
+  font-size:90%; /**/
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+
+/* HEADER lista con el logo*/
+
+.header{  
+  width: 1200px;
+  height:100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header ul{
+  color:black;
+  position:relative;
+  top:35%;
+  left:6%;
+}
+
+.header ul li{
+  width:10%;
+  height:;
+  float: left;
+    display:inline-block;
+    list-style-type: none;
+  text-align: center;
+}
+
+.header ul li img{
+  width: 70px;
+  height:70px;
+  margin-top:-20% ;
+  position:relative;
+  right:70%;
+}
+
+.header ul li:last-child{
+  float:right;
+}
+
+/* HOME caja azul con el café y audífonos*/
+
+.home{
+  width: 1200px;
+  position:relative;
+}
+
+.home img{
+  width:1366px;
+  z-index:1;
+  position: relative;
+}
+
+.resume{
+  z-index: 2;
+  position: relative;
+  color:white;
+  margin-top: -41.5%;
+  margin-left:12%;
+  text-align: center;
+}
+
+.resume h1{
+  font-size: 300%;
+}
+
+.resume h3{
+  font-size:145%;
+}
+
+.resume h4{
+  font-weight: normal;
+}
+
+.boton{
+  z-index: 2;
+  width:150px;
+  height:48px;
+  position: relative;
+  left:50%;
+  color:white;
+  background-color: #00DD6E; 
+  text-align: center;
+  margin-top:6%;
+  padding-top: 1%;
+}
+
+
+/* SERVICIOS caja rosada*/
+
+
+.services{
+  width:1366px;
+  height:670px;
+  position:relative;
+  top:17%;
+  background-color: #FE6F6B;
+  z-index: 1;
+  text-align: center;
+  color:white;
+}
+
+.services h2{
+  font-size: 200%;
+  position:relative;
+  top:10%;
+}
+
+.services p{
+  margin:0 20%;
+  position:relative;
+  top:10%;
+}
+
+.services img{
+  width:200px;
+  margin-bottom: 5%;
+}
+
+.services table{
+  position: relative;
+  top:20%;
+  left:11%;  
+  color:white;  
+  width:78%;
+  text-align: center;
+}
+
+.services table{
+  font-size: 70%;
+  line-height: 150%;
+  font-weight: bold;
+}
+
+.titles{
+  margin-top:5%;
+}
+
+.services table ul li{  
+  list-style-type: none;
+  margin-left:-13%;
+}
+
+/*FIN SERVICIOS*/
+
+/*WORK el computador gigante*/
+
+.work{
+  position:relative;
+  top:25%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.work h2{
+  font-size: 200%;
+}
+
+.work p{
+  margin:0 20% 4% 20%;
+}
+
+.work img{
+  width:70%;
+}
+
+
+/*  FIN WORK*/
+
+/*PROTECTS*/
+
+.proyects{
+  position:relative;
+  top:25%;
+}
+
+.proyects table{
+  width:85%;
+  height: 1080px;
+  position:relative;
+  left:10%;
+  text-align: center;
+}
+
+
+.proyects img{
+  width: 300px;
+  height: 250px;
+  margin:4%;
+}
+
+/*FIN PROYECTS*/
+
+
+/*FOOTER*/
+
+.footer{
+  height: 70px;
+  width:100%;
+  position: relative;
+  top:50%;
+  background-color: #3A3B49;
+}
+
+.footer p{
+  color:white;
+  text-align: center;
+  position:relative;
+  top:30%;
+  left:-4%;
+}
+
+/*FIN FOOTER*/
