@@ -16,6 +16,7 @@ body {
   font-size: 16px;
   line-height: 1.71429;
   font-family: 'Raleway', sans-serif; /*lo agregué yo*/
+  background-color: #161616; /*Color de fondo*/
 }
 
 img {
@@ -72,16 +73,23 @@ a:hover {
   text-transform: uppercase;
 }
 
+
+
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+
 
 
 /* HEADER lista con el logo*/
 
 .header{  
-  width: 1200px;
+  width: 1366px; /*dimensiones del header*/
   height:100px;
   margin-right: auto;
   margin-left: auto;
+  position:fixed; /*Posición fija para que se mantenga siempre en su posición*/
+  z-index: 3; /*z-index para que se mantenga siempre como la capa superior, y no sea bloqueado por el resto*/
+  background-color: white;
 }
 
 .header ul{
@@ -95,8 +103,8 @@ a:hover {
   width:10%;
   height:;
   float: left;
-    display:inline-block;
-    list-style-type: none;
+  display:inline-block;
+  list-style-type: none;
   text-align: center;
 }
 
@@ -105,7 +113,7 @@ a:hover {
   height:70px;
   margin-top:-20% ;
   position:relative;
-  right:70%;
+  right:150%;
 }
 
 .header ul li:last-child{
@@ -117,6 +125,7 @@ a:hover {
 .home{
   width: 1200px;
   position:relative;
+  top:100px;
 }
 
 .home img{
@@ -125,7 +134,7 @@ a:hover {
   position: relative;
 }
 
-.resume{
+.resume{ /*Texto descriptivo*/ 
   z-index: 2;
   position: relative;
   color:white;
@@ -147,7 +156,7 @@ a:hover {
 }
 
 .boton{
-  z-index: 2;
+  z-index: 2;  
   width:150px;
   height:48px;
   position: relative;
@@ -159,6 +168,12 @@ a:hover {
   padding-top: 1%;
 }
 
+.boton:hover{
+  border-radius: 10px 10px 10px 10px;
+  -webkit-box-sizing: 10px 10px 10px 10px;
+  -moz-box-sizing: 10px 10px 10px 10px;
+  box-sizing: 10px 10px 10px 10px;
+}
 
 /* SERVICIOS caja rosada*/
 
@@ -167,7 +182,7 @@ a:hover {
   width:1366px;
   height:670px;
   position:relative;
-  top:17%;
+  top:30%;
   background-color: #FE6F6B;
   z-index: 1;
   text-align: center;
@@ -184,6 +199,7 @@ a:hover {
   margin:0 20%;
   position:relative;
   top:10%;
+  font-weight: bold;
 }
 
 .services img{
@@ -217,17 +233,19 @@ a:hover {
 
 /*FIN SERVICIOS*/
 
-/*WORK el computador gigante*/
+/* INICIO WORK el computador gigante*/
 
 .work{
   position:relative;
   top:25%;
   text-align: center;
   font-weight: bold;
+  background-color: white;
 }
 
 .work h2{
   font-size: 200%;
+  padding-top:88px;
 }
 
 .work p{
@@ -241,26 +259,35 @@ a:hover {
 
 /*  FIN WORK*/
 
-/*PROTECTS*/
+/*PROJECTS*/
 
-.proyects{
+.projects{
+  height: 1540px;
   position:relative;
   top:25%;
+  background-color: white;
 }
 
-.proyects table{
+.projects table{
   width:85%;
-  height: 1080px;
+  height: 1420px;
   position:relative;
   left:10%;
   text-align: center;
 }
 
-
-.proyects img{
+.projects img{
   width: 300px;
   height: 250px;
   margin:4%;
+  background-color: white;
+}
+
+.projects img:hover{
+  border-radius: 10px 10px 10px 10px;
+  -webkit-box-sizing: 10px 10px 10px 10px;
+  -moz-box-sizing: 10px 10px 10px 10px;
+  box-sizing: 10px 10px 10px 10px;
 }
 
 /*FIN PROYECTS*/
@@ -272,7 +299,7 @@ a:hover {
   height: 70px;
   width:100%;
   position: relative;
-  top:35%;
+  top:18%;
   background-color: #3A3B49;
 }
 
