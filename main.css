@@ -80,7 +80,7 @@ a:hover {
 
 
 
-/* HEADER lista con el logo*/
+/* HEADER Una lista con el logo*/
 
 .header{  
   width: 1366px; /*dimensiones del header*/
@@ -109,7 +109,7 @@ a:hover {
 }
 
 .header ul li img{
-  width: 70px;
+  width: 70px; /*Redimensionado del logo*/
   height:70px;
   margin-top:-20% ;
   position:relative;
@@ -119,6 +119,9 @@ a:hover {
 .header ul li:last-child{
   float:right;
 }
+
+/* FIN HEADER*/
+
 
 /* HOME caja azul con el café y audífonos*/
 
@@ -134,7 +137,7 @@ a:hover {
   position: relative;
 }
 
-.resume{ /*Texto descriptivo*/ 
+.resume{ /* Caja de texto descriptivo*/ 
   z-index: 2;
   position: relative;
   color:white;
@@ -174,6 +177,9 @@ a:hover {
   -moz-box-sizing: 10px 10px 10px 10px;
   box-sizing: 10px 10px 10px 10px;
 }
+
+
+/* FIN HOME */
 
 /* SERVICIOS caja rosada*/
 
